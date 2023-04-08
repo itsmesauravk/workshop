@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.txtdiv {
+    width: 62%;
+    height: 735px;
+    float:left;
+    background-color:#530000;
+}
+
+.imgdiv {
+    width: 38%;
+    float: right;
+}
+
+
+#ddpl {
+    height: 733px;
+    width: 559px;
+}
+h1 {
+    margin-top: 150px;
+    margin-left: 140px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: monospace;
+    color: wheat;
+}
+#d1 {
+    margin-top: 50px;
+    margin-left: 140px;
+    color: bisque;
+    font-weight: bold;
+}
+#d2 {
+    margin-top: 50px;
+    margin-left: 140px;
+    color: bisque;
+    font-weight: bold;
+}
+button {
+    margin-top: 80px;
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: wheat;
+    color: #530000;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: none;
+}
+button:hover {
+    background-color: olivedrab;
+}
+@media (max-width:900px) {
+    .txtdiv {
+        width: 50%;
+        height: 670px;
+    } 
+    .imgdiv {
+        width: 50%;
+        float: right;
+    }
+    #ddpl {
+        height: 670px;
+        width: 330px;
+    }
+    h1 {
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    #d2 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    button {
+        margin-top: 80px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    
+}
+@media (max-width:680px) {
+    .txtdiv {
+        width: 50%;
+        height: 670px;
+    } 
+    .imgdiv {
+        width: 50%;
+        float: right;
+    }
+    #ddpl {
+        height: 665px;
+        width: 260px;
+    }
+    /* h1 {
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    #d2 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    button {
+        margin-top: 80px;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+     */
+}
+@media (max-width:563px) {
+    .txtdiv {
+        width: 50%;
+        height: 560px;
+    } 
+    .imgdiv {
+        width: 50%;
+        float: right;
+    }
+    #ddpl {
+        height: 560px;
+        width: 210px;
+    }
+    h1 {
+        margin-top: 50px;
+        margin-left: 5px;
+        font-size: 50px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    #d2 {
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    button {
+        margin-top: 80px;
+        margin-left: 5px;
+        font-weight: bold;
+    }
+}
+@media (max-width:770px) {
+    .txtdiv {
+        width: 100%;
+        height: 700px;
+    } 
+    .imgdiv {
+        float: left;
+    }
+    #ddpl {
+        height: 700px;
+        width: 750px;
+    }
+    h1 {
+        margin-left: 200px;
+        margin-top: 30px;
+        font-size: 100px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 200px;
+        font-size: 30px;
+    }
+    #d2 {
+        margin-left: 200px;
+        font-size: 30px;
+    }
+    button {
+        margin-left: 200px;
+    }
+
+}
+@media (max-width:376px) {
+    .txtdiv {
+        width: 100%;
+        height: 560px;
+    } 
+    .imgdiv {
+        height: 500px;
+        width: 280px;
+        float: left;
+    }
+    #ddpl {
+        height: 560px;
+        width: 355px;
+    }
+    h1 {
+        margin-left: 60px;
+        font-size: 50px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    #d2 {
+        margin-left: 60px;
+    }
+    button {
+        margin-left: 60px;
+    }
+
+}
+@media (max-width:600px) {
+    .txtdiv {
+        width: 100%;
+        height: 700px;
+    } 
+    .imgdiv {
+        float: left;
+    }
+    #ddpl {
+        height: 700px;
+        width: 420px;
+    }
+    h1 {
+        margin-left: 20px;
+        margin-top: 3px;
+        font-size: 80px;
+    }
+    #d1 {
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    #d2 {
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    button {
+        margin-left: 100px;
+    }
+}
