@@ -22,23 +22,34 @@
 h1 {
     margin-top: 150px;
     margin-left: 140px;
+    /* margin-right: 470px; */
     font-size: 70px;
     font-weight: bold;
     font-family: monospace;
     color: wheat;
+    /* border: 4px solid bisque;
+    border-radius: 15px;
+    padding-left: 15px; */
 }
 #d1 {
     margin-top: 50px;
     margin-left: 140px;
     color: bisque;
     font-weight: bold;
+    text-transform: capitalize;
 }
+/* #d1:hover {
+    color:olivedrab
+} */
 #d2 {
     margin-top: 50px;
     margin-left: 140px;
     color: bisque;
     font-weight: bold;
 }
+/* #d2:hover {
+    color:olivedrab
+} */
 button {
     margin-top: 80px;
     margin-left: 140px;
@@ -56,6 +67,7 @@ button {
 button:hover {
     background-color: olivedrab;
 }
+
 @media (max-width:900px) {
     .txtdiv {
         width: 50%;
@@ -204,9 +216,11 @@ button:hover {
     #d1 {
         margin-top: 50px;
         margin-left: 60px;
+        /* text-transform: uppercase; */
     }
     #d2 {
         margin-left: 60px;
+        /* text-transform: uppercase; */
     }
     button {
         margin-left: 60px;
